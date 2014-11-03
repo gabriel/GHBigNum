@@ -1,0 +1,2 @@
+PODS_TESTS_OPENSSL_GABRIEL_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/../../OpenSSL-gabriel/lib" "$(PODS_ROOT)/../../OpenSSL-gabriel/lib"
+PODS_TESTS_OPENSSL_GABRIEL_OTHER_LDFLAGS = -l"crypto" -l"ssl"

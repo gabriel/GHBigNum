@@ -45,7 +45,7 @@
 		00D010281A081BAA002BF5C5 /* GHBigNum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHBigNum.h; sourceTree = "<group>"; };
 		00D0102A1A081BAA002BF5C5 /* GHBigNum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBigNum.m; sourceTree = "<group>"; };
 		00D0103F1A081BDD002BF5C5 /* GHBigNum.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GHBigNum.podspec; sourceTree = "<group>"; };
-		00D010401A081BDD002BF5C5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		00D010401A081BDD002BF5C5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		00D010411A0824CA002BF5C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2AE8130532757D80408B24FA /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Tests/main.m; sourceTree = "<group>"; };
 		43B8ACD5B1E8CBA2525A8A52 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };

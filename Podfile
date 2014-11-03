@@ -1,6 +1,7 @@
-platform :ios, "7.0"
+platform :ios, "8.0"
+source "https://github.com/CocoaPods/Specs.git"
 
-pod "OpenSSL-Universal"
+pod "OpenSSL-gabriel", :path => "../OpenSSL-gabriel"
 
 target :Tests do
   pod "GRUnit"
