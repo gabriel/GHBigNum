@@ -1,0 +1,13 @@
+PODS:
+  - GRUnit (1.0.11)
+  - OpenSSL-Universal (1.0.1.j-2)
+
+DEPENDENCIES:
+  - GRUnit
+  - OpenSSL-Universal
+
+SPEC CHECKSUMS:
+  GRUnit: 5ca46dd509f039f10ba027598fa8c1f12fe7ec3c
+  OpenSSL-Universal: 59e0fe9f0e78df35ca0c366ba0d1e714ebd6397a
+
+COCOAPODS: 0.34.4
