@@ -16,6 +16,8 @@
 - (instancetype)initWithDecimalString:(NSString *)decimalString;
 + (instancetype)bigNumWithDecimalString:(NSString *)decimalString;
 
+- (NSString *)decimalString;
+
 - (BOOL)isPrime;
 
 + (GHBigNum *)generatePrime:(int)bits;

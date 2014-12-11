@@ -13,3 +13,5 @@ BigNum library for Objective-C. Uses OpenSSL.
 platform :ios, "7.0"
 pod "GHBigNum"
 ```
+
+This only includes a few bignum methods that I needed, so its still a work in progress.
