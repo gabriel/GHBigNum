@@ -1,17 +1,13 @@
 PODS:
   - GRUnit (1.0.11)
-  - OpenSSL-Universal (1.0.1.j-2)
+  - OpenSSL-gabriel (1.0.1.j)
 
 DEPENDENCIES:
   - GRUnit
-  - OpenSSL-Universal (from `https://raw.github.com/krzyzanowskim/OpenSSL/master/OpenSSL-Universal.podspec`)
-
-EXTERNAL SOURCES:
-  OpenSSL-Universal:
-    :podspec: https://raw.github.com/krzyzanowskim/OpenSSL/master/OpenSSL-Universal.podspec
+  - OpenSSL-gabriel (~> 1.0.1j)
 
 SPEC CHECKSUMS:
   GRUnit: 5ca46dd509f039f10ba027598fa8c1f12fe7ec3c
-  OpenSSL-Universal: 2187acce4aaec7b0f7532deab46bc3ab104ace51
+  OpenSSL-gabriel: b169158bef61ba794ab5db69f0bb175cc06855d8
 
 COCOAPODS: 0.35.0
