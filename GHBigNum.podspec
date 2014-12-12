@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GHBigNum"
-  s.version      = "0.1.3"
+  s.version      = "0.1.4"
   s.summary      = "BigNum library (from OpenSSL)"
   s.homepage     = "https://github.com/gabriel/GHBigNum"
   s.license      = { :type => "MIT" }
@@ -11,5 +11,9 @@ Pod::Spec.new do |s|
   s.source_files = "GHBigNum/**/*.{c,h,m}"
   s.requires_arc = true
   s.ios.platform = :ios, "8.0"
+  s.ios.deployment_target = "8.0"
+
+  s.osx.platform = :osx, "10.9"
+  s.osx.deployment_target = "10.9"
 
 end
