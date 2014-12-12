@@ -16,7 +16,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F82126AF399DE63BD22F27E"
+            BlueprintIdentifier = "0A94794A1E5173B5CD735B88"
             BuildableName = "Tests.app"
             BlueprintName = "Tests"
             ReferencedContainer = "container:GHBigNum.xcodeproj">
@@ -37,7 +37,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F82126AF399DE63BD22F27E"
+            BlueprintIdentifier = "0A94794A1E5173B5CD735B88"
             BuildableName = "Tests.app"
             BlueprintName = "Tests"
             ReferencedContainer = "container:GHBigNum.xcodeproj">
@@ -53,7 +53,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F82126AF399DE63BD22F27E"
+            BlueprintIdentifier = "0A94794A1E5173B5CD735B88"
             BuildableName = "Tests.app"
             BlueprintName = "Tests"
             ReferencedContainer = "container:GHBigNum.xcodeproj">

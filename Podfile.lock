@@ -1,13 +1,13 @@
 PODS:
-  - GRUnit (1.0.11)
-  - OpenSSL-gabriel (1.0.1.j)
+  - GRUnit (1.0.13)
+  - OpenSSL-gabriel (1.0.1.j-2)
 
 DEPENDENCIES:
   - GRUnit
-  - OpenSSL-gabriel (~> 1.0.1j)
+  - OpenSSL-gabriel (~> 1.0.1.j-2)
 
 SPEC CHECKSUMS:
-  GRUnit: 5ca46dd509f039f10ba027598fa8c1f12fe7ec3c
-  OpenSSL-gabriel: b169158bef61ba794ab5db69f0bb175cc06855d8
+  GRUnit: 0ea9ea1b1489c7e37b9d8864c6928b2c122a3d5a
+  OpenSSL-gabriel: 98244ee135881a50ecde71747429a8b27ce242cd
 
 COCOAPODS: 0.35.0
