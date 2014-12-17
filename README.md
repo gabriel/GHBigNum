@@ -21,7 +21,7 @@ This only includes a few bignum methods that I needed, so its still a work in pr
 ```objc
 GHBigNum *a = [GHBigNum bigNumWithDecimalString:@"3487438743234789234879"];
 GHBigNum *p = [GHBigNum bigNumWithDecimalString:@"22"];
-GHBigNum *m = [GHBigNum bigNumWithDecimalString:@"3487438743234789234880"];
+GHBigNum *m = [GHBigNum bigNumWithDecimalString:@"43234789234880"];
 GHBigNum *r = [GHBigNum modPow:a p:p m:m];
 ```
 
@@ -29,7 +29,7 @@ GHBigNum *r = [GHBigNum modPow:a p:p m:m];
 
 ```objc
 GHBigNum *a = [GHBigNum bigNumWithDecimalString:@"3487438743234789234879"];
-GHBigNum *m = [GHBigNum bigNumWithDecimalString:@"3487438743234789234880"];
+GHBigNum *m = [GHBigNum bigNumWithDecimalString:@"743234789234880"];
 GHBigNum *r = [GHBigNum modInverse:a m:m];
 ```
 
