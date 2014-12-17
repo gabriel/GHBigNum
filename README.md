@@ -15,3 +15,29 @@ pod "GHBigNum"
 ```
 
 This only includes a few bignum methods that I needed, so its still a work in progress.
+
+## a^p % m
+
+```objc
+GHBigNum *a = [GHBigNum bigNumWithDecimalString:@"3487438743234789234879"];
+GHBigNum *p = [GHBigNum bigNumWithDecimalString:@"22"];
+GHBigNum *m = [GHBigNum bigNumWithDecimalString:@"3487438743234789234880"];
+GHBigNum *r = [GHBigNum modPow:a p:p m:m];
+```
+
+## (a*r) % m == 1
+
+```objc
+GHBigNum *a = [GHBigNum bigNumWithDecimalString:@"3487438743234789234879"];
+GHBigNum *m = [GHBigNum bigNumWithDecimalString:@"3487438743234789234880"];
+GHBigNum *r = [GHBigNum modInverse:a m:m];
+```
+
+
+## Prime
+
+```objc
+GHBigNum *bn = [GHBigNum generatePrime:512];
+[bn isPrime]; // YES
+```
+
