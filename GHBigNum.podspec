@@ -7,13 +7,13 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT" }
   s.author       = { "Gabriel Handford" => "gabrielh@gmail.com" }
   s.source       = { :git => "https://github.com/gabriel/GHBigNum.git", :tag => s.version.to_s }
-  s.dependency "OpenSSL-gabriel", "~> 1.0.1.j-2"
+  s.dependency "OpenSSL-Universal", "~> 1.0.1k"
   s.source_files = "GHBigNum/**/*.{c,h,m}"
   s.requires_arc = true
-  s.ios.platform = :ios, "8.0"
-  s.ios.deployment_target = "8.0"
+  s.ios.platform = :ios, "7.0"
+  s.ios.deployment_target = "7.0"
 
-  s.osx.platform = :osx, "10.9"
-  s.osx.deployment_target = "10.9"
+  s.osx.platform = :osx, "10.8"
+  s.osx.deployment_target = "10.8"
 
 end
