@@ -12,7 +12,7 @@
 		0012068F1B7BF1B200D773D6 /* GHBigNumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012068E1B7BF1B200D773D6 /* GHBigNumTest.m */; };
 		001206921B7BF1C100D773D6 /* GHIBigNum.m in Sources */ = {isa = PBXBuildFile; fileRef = 001206901B7BF1C100D773D6 /* GHIBigNum.m */; };
 		001206931B7BF1C100D773D6 /* GHIBigNum.h in Headers */ = {isa = PBXBuildFile; fileRef = 001206911B7BF1C100D773D6 /* GHIBigNum.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A510E6A0A498C7C90E54EE67 /* libPods-GHBigNum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B50FC1E9EB173673A36550 /* libPods-GHBigNum.a */; };
+		8C46AA245C3A3560B90391AC /* libPods-GHBigNum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 077FA1FC5138671E44FD8C78 /* libPods-GHBigNum.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,9 @@
 		001206941B7BF22000D773D6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		001206951B7BF22000D773D6 /* GHBigNum.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GHBigNum.podspec; sourceTree = "<group>"; };
 		001206961B7BF22000D773D6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		077FA1FC5138671E44FD8C78 /* libPods-GHBigNum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHBigNum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56484118749FD5C0C4BF5B05 /* Pods-GHBigNum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHBigNum.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHBigNum/Pods-GHBigNum.release.xcconfig"; sourceTree = "<group>"; };
 		9C7CF14A034AE4CFBB1366B3 /* Pods-GHBigNum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHBigNum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHBigNum/Pods-GHBigNum.debug.xcconfig"; sourceTree = "<group>"; };
-		E5B50FC1E9EB173673A36550 /* libPods-GHBigNum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHBigNum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A510E6A0A498C7C90E54EE67 /* libPods-GHBigNum.a in Frameworks */,
+				8C46AA245C3A3560B90391AC /* libPods-GHBigNum.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +133,7 @@
 		B7A9863B2C950DC8279CD642 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E5B50FC1E9EB173673A36550 /* libPods-GHBigNum.a */,
+				077FA1FC5138671E44FD8C78 /* libPods-GHBigNum.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

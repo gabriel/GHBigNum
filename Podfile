@@ -1,4 +1,4 @@
 target "GHBigNum" do
   platform :osx, "10.8"
-  pod "OpenSSL-Universal", "~> 1.0.1.k"
+  pod "OpenSSL-Static", "1.0.2.c1"
 end
