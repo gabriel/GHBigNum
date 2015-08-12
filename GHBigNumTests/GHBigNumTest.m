@@ -1,16 +1,24 @@
-#import <GRUnit/GRUnit.h>
+//
+//  KBListView.m
+//  Keybase
+//
+//  Created by Gabriel on 2/2/15.
+//  Copyright (c) 2015 Gabriel Handford. All rights reserved.
+//
 
-#import "GHBigNum.h"
+#import <XCTest/XCTest.h>
 
-@interface GHBigNumTest : GRTestCase
+#import <GHBigNum/GHBigNum.h>
+
+@interface GHBigNumTest : XCTestCase
 @end
 
 @implementation GHBigNumTest
 
 - (void)testPrime {
   GHBigNum *bn = [GHBigNum generatePrime:512];
-  GRAssertTrue([bn isPrime]);
-  GRTestLog(@"%@", bn);
+  XCTAssertTrue([bn isPrime]);
+  NSLog(@"%@", bn);
 }
 
 - (void)testModPow {

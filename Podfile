@@ -1,8 +1,9 @@
-platform :ios, "8.0"
-source "https://github.com/CocoaPods/Specs.git"
+target "GHBigNum" do
+  platform :ios, "7.0"
+  pod "OpenSSL-Universal", "~> 1.0.1.k"
+end
 
-pod "OpenSSL-Universal", "~> 1.0.1.k"
-
-target "Tests" do
-  pod "GRUnit"
+target "GHBigNumOSX" do
+  platform :osx, "10.8"
+  pod "OpenSSL-Universal", "~> 1.0.1.k"
 end

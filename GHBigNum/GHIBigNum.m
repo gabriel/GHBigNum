@@ -1,16 +1,16 @@
 //
-//  GHBigNum.m
+//  GHIBigNum.m
 //  GHBigNum
 //
 //  Created by Gabriel on 11/3/14.
 //  Copyright (c) 2014 Gabriel Handford. All rights reserved.
 //
 
-#import "GHBigNum.h"
+#import "GHIBigNum.h"
 
-#include <openssl/bn.h>
-#include <openssl/rand.h>
-#include <Security/SecRandom.h>
+#import <openssl/bn.h>
+#import <openssl/rand.h>
+#import <Security/SecRandom.h>
 
 @interface GHBigNum ()
 @property BIGNUM *bigNum;

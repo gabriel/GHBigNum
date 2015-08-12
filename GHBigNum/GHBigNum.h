@@ -2,30 +2,19 @@
 //  GHBigNum.h
 //  GHBigNum
 //
-//  Created by Gabriel on 11/3/14.
-//  Copyright (c) 2014 Gabriel Handford. All rights reserved.
+//  Created by Gabriel on 8/12/15.
+//  Copyright (c) 2015 Gabriel Handford. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-#include <openssl/bn.h>
+//! Project version number for GHBigNum.
+FOUNDATION_EXPORT double GHBigNumVersionNumber;
 
-@interface GHBigNum : NSObject
+//! Project version string for GHBigNum.
+FOUNDATION_EXPORT const unsigned char GHBigNumVersionString[];
 
-- (instancetype)initWithBigNumNoCopy:(BIGNUM *)bigNum;
-- (instancetype)initWithDecimalString:(NSString *)decimalString;
-+ (instancetype)bigNumWithDecimalString:(NSString *)decimalString;
+// In this header, you should import all the public headers of your framework using statements like #import <GHBigNum/PublicHeader.h>
 
-- (NSString *)decimalString;
 
-- (BOOL)isPrime;
-
-+ (GHBigNum *)generatePrime:(int)bits;
-
-// r=a^p % m
-+ (GHBigNum *)modPow:(GHBigNum *)a p:(GHBigNum *)p m:(GHBigNum *)m;
-
-// inverse of a modulo m
-+ (GHBigNum *)modInverse:(GHBigNum *)a m:(GHBigNum *)m;
-
-@end
+#import <GHBigNum/GHIBigNum.h>

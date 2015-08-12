@@ -7,88 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00CC433E1A3A729E006118A9 /* GHBigNumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F71AF64F684C2ACDF71B64 /* GHBigNumTest.m */; };
-		00CC433F1A3A72A8006118A9 /* GHBigNum.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0102A1A081BAA002BF5C5 /* GHBigNum.m */; };
-		00D010291A081BAA002BF5C5 /* GHBigNum.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00D010281A081BAA002BF5C5 /* GHBigNum.h */; };
-		00D0102B1A081BAA002BF5C5 /* GHBigNum.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0102A1A081BAA002BF5C5 /* GHBigNum.m */; };
-		2A77309502BAD2A5DEA06B83 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB291663422E9D930A8356BB /* libPods.a */; };
-		7908EB0DB7EDF326179949A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05A683CBF95144274C7B8A3 /* Foundation.framework */; };
-		8336533B1661B761F1EBD0FE /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C621606C3320678198D0B3 /* libPods-Tests.a */; };
-		F058D37CB32C15D6FC8E2ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A803F0D2F76C8A271BE4CDE /* main.m */; };
+		001206321B7BEBA200D773D6 /* GHBigNum.h in Headers */ = {isa = PBXBuildFile; fileRef = 001206311B7BEBA200D773D6 /* GHBigNum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		001206381B7BEBA200D773D6 /* GHBigNum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0012062D1B7BEBA200D773D6 /* GHBigNum.framework */; };
+		001206471B7BEBE900D773D6 /* GHBigNumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 001206461B7BEBE900D773D6 /* GHBigNumTest.m */; };
+		001206481B7BEC9500D773D6 /* GHIBigNum.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D010281A081BAA002BF5C5 /* GHIBigNum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		001206491B7BEC9800D773D6 /* GHIBigNum.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0102A1A081BAA002BF5C5 /* GHIBigNum.m */; };
+		72C98F1309BF1BCAF6D2A3DD /* libPods-GHBigNum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5B21A8DE9F89A5398162CF /* libPods-GHBigNum.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AEC156426716EE9823292FB1 /* PBXContainerItemProxy */ = {
+		001206391B7BEBA200D773D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00D0101D1A081BAA002BF5C5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00D010241A081BAA002BF5C5;
+			remoteGlobalIDString = 0012062C1B7BEBA200D773D6;
 			remoteInfo = GHBigNum;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		00D010231A081BAA002BF5C5 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				00D010291A081BAA002BF5C5 /* GHBigNum.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		0012062D1B7BEBA200D773D6 /* GHBigNum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GHBigNum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		001206311B7BEBA200D773D6 /* GHBigNum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHBigNum.h; sourceTree = "<group>"; };
+		001206371B7BEBA200D773D6 /* GHBigNumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHBigNumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0012063D1B7BEBA200D773D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001206461B7BEBE900D773D6 /* GHBigNumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBigNumTest.m; sourceTree = "<group>"; };
+		0012064F1B7BEEF200D773D6 /* GHBigNumOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GHBigNumOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		001206521B7BEEF200D773D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = GHBigNum/Info.plist; sourceTree = SOURCE_ROOT; };
 		00CC433C1A3A717B006118A9 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		00D010251A081BAA002BF5C5 /* libGHBigNum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGHBigNum.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		00D010281A081BAA002BF5C5 /* GHBigNum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHBigNum.h; sourceTree = "<group>"; };
-		00D0102A1A081BAA002BF5C5 /* GHBigNum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBigNum.m; sourceTree = "<group>"; };
+		00D010281A081BAA002BF5C5 /* GHIBigNum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHIBigNum.h; sourceTree = "<group>"; };
+		00D0102A1A081BAA002BF5C5 /* GHIBigNum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHIBigNum.m; sourceTree = "<group>"; };
 		00D0103F1A081BDD002BF5C5 /* GHBigNum.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GHBigNum.podspec; sourceTree = "<group>"; };
 		00D010401A081BDD002BF5C5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		00D010411A0824CA002BF5C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3A803F0D2F76C8A271BE4CDE /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Tests/main.m; sourceTree = "<group>"; };
-		478BC9668F82C8EA99D1D932 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4C5B21A8DE9F89A5398162CF /* libPods-GHBigNum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHBigNum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846773F10435B9B1AE232A51 /* Pods-GHBigNum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHBigNum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHBigNum/Pods-GHBigNum.debug.xcconfig"; sourceTree = "<group>"; };
 		A05A683CBF95144274C7B8A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A1F71AF64F684C2ACDF71B64 /* GHBigNumTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHBigNumTest.m; path = Tests/GHBigNumTest.m; sourceTree = "<group>"; };
 		BB291663422E9D930A8356BB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C61FB16E68DFDA5F36C7C7EE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		C63401BC278E01DD8CEF8CAB /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8C621606C3320678198D0B3 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA9FC4A818EF0CBA9F201C16 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F54C6D72361A6CDE4C7EEF79 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F0C89C5ACA325DB08BF07382 /* Pods-GHBigNum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHBigNum.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHBigNum/Pods-GHBigNum.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00D010221A081BAA002BF5C5 /* Frameworks */ = {
+		001206291B7BEBA200D773D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A77309502BAD2A5DEA06B83 /* libPods.a in Frameworks */,
+				72C98F1309BF1BCAF6D2A3DD /* libPods-GHBigNum.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50647CCF53041E9C59710367 /* Frameworks */ = {
+		001206341B7BEBA200D773D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7908EB0DB7EDF326179949A5 /* Foundation.framework in Frameworks */,
-				8336533B1661B761F1EBD0FE /* libPods-Tests.a in Frameworks */,
+				001206381B7BEBA200D773D6 /* GHBigNum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0012064B1B7BEEF200D773D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0012062E1B7BEBA200D773D6 /* GHBigNum */ = {
+			isa = PBXGroup;
+			children = (
+				001206311B7BEBA200D773D6 /* GHBigNum.h */,
+				00D010281A081BAA002BF5C5 /* GHIBigNum.h */,
+				00D0102A1A081BAA002BF5C5 /* GHIBigNum.m */,
+				0012062F1B7BEBA200D773D6 /* Supporting Files */,
+			);
+			path = GHBigNum;
+			sourceTree = "<group>";
+		};
+		0012062F1B7BEBA200D773D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				001206521B7BEEF200D773D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0012063B1B7BEBA200D773D6 /* GHBigNumTests */ = {
+			isa = PBXGroup;
+			children = (
+				001206461B7BEBE900D773D6 /* GHBigNumTest.m */,
+				0012063C1B7BEBA200D773D6 /* Supporting Files */,
+			);
+			path = GHBigNumTests;
+			sourceTree = "<group>";
+		};
+		0012063C1B7BEBA200D773D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0012063D1B7BEBA200D773D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		00D0101C1A081BAA002BF5C5 = {
 			isa = PBXGroup;
 			children = (
 				00D010411A0824CA002BF5C5 /* README.md */,
 				00D010401A081BDD002BF5C5 /* Podfile */,
 				00D0103F1A081BDD002BF5C5 /* GHBigNum.podspec */,
-				00D010271A081BAA002BF5C5 /* GHBigNum */,
-				B15CC655F2567C4FDE5D7E64 /* Tests */,
+				0012062E1B7BEBA200D773D6 /* GHBigNum */,
+				0012063B1B7BEBA200D773D6 /* GHBigNumTests */,
 				00D010261A081BAA002BF5C5 /* Products */,
 				E01A858BEE24686BDB619D4A /* Frameworks */,
 				7EA344F4239DC4E8A9C362F9 /* Pods */,
@@ -98,19 +126,11 @@
 		00D010261A081BAA002BF5C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00D010251A081BAA002BF5C5 /* libGHBigNum.a */,
-				C63401BC278E01DD8CEF8CAB /* Tests.app */,
+				0012062D1B7BEBA200D773D6 /* GHBigNum.framework */,
+				001206371B7BEBA200D773D6 /* GHBigNumTests.xctest */,
+				0012064F1B7BEEF200D773D6 /* GHBigNumOSX.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		00D010271A081BAA002BF5C5 /* GHBigNum */ = {
-			isa = PBXGroup;
-			children = (
-				00D010281A081BAA002BF5C5 /* GHBigNum.h */,
-				00D0102A1A081BAA002BF5C5 /* GHBigNum.m */,
-			);
-			path = GHBigNum;
 			sourceTree = "<group>";
 		};
 		0C8C1F743AB51E84A1B0A110 /* iOS */ = {
@@ -124,21 +144,10 @@
 		7EA344F4239DC4E8A9C362F9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C61FB16E68DFDA5F36C7C7EE /* Pods.debug.xcconfig */,
-				478BC9668F82C8EA99D1D932 /* Pods.release.xcconfig */,
-				F54C6D72361A6CDE4C7EEF79 /* Pods-Tests.release.xcconfig */,
-				EA9FC4A818EF0CBA9F201C16 /* Pods-Tests.debug.xcconfig */,
+				846773F10435B9B1AE232A51 /* Pods-GHBigNum.debug.xcconfig */,
+				F0C89C5ACA325DB08BF07382 /* Pods-GHBigNum.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		B15CC655F2567C4FDE5D7E64 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A1F71AF64F684C2ACDF71B64 /* GHBigNumTest.m */,
-				3A803F0D2F76C8A271BE4CDE /* main.m */,
-			);
-			name = Tests;
 			sourceTree = "<group>";
 		};
 		E01A858BEE24686BDB619D4A /* Frameworks */ = {
@@ -147,23 +156,43 @@
 				00CC433C1A3A717B006118A9 /* libPods.a */,
 				BB291663422E9D930A8356BB /* libPods.a */,
 				0C8C1F743AB51E84A1B0A110 /* iOS */,
-				D8C621606C3320678198D0B3 /* libPods-Tests.a */,
+				4C5B21A8DE9F89A5398162CF /* libPods-GHBigNum.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		0012062A1B7BEBA200D773D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001206321B7BEBA200D773D6 /* GHBigNum.h in Headers */,
+				001206481B7BEC9500D773D6 /* GHIBigNum.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0012064C1B7BEEF200D773D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		00D010241A081BAA002BF5C5 /* GHBigNum */ = {
+		0012062C1B7BEBA200D773D6 /* GHBigNum */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00D010391A081BAA002BF5C5 /* Build configuration list for PBXNativeTarget "GHBigNum" */;
+			buildConfigurationList = 001206401B7BEBA200D773D6 /* Build configuration list for PBXNativeTarget "GHBigNum" */;
 			buildPhases = (
-				D8BC0580AE27D05145FA3EB4 /* Check Pods Manifest.lock */,
-				00D010211A081BAA002BF5C5 /* Sources */,
-				00D010221A081BAA002BF5C5 /* Frameworks */,
-				00D010231A081BAA002BF5C5 /* CopyFiles */,
-				06F80D0B24F045EC4425C65B /* Copy Pods Resources */,
+				B52ACEF8DD4A0290102C5379 /* Check Pods Manifest.lock */,
+				001206281B7BEBA200D773D6 /* Sources */,
+				001206291B7BEBA200D773D6 /* Frameworks */,
+				0012062A1B7BEBA200D773D6 /* Headers */,
+				0012062B1B7BEBA200D773D6 /* Resources */,
+				DBDDDC7D57E8CA1CD352F055 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,28 +200,44 @@
 			);
 			name = GHBigNum;
 			productName = GHBigNum;
-			productReference = 00D010251A081BAA002BF5C5 /* libGHBigNum.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 0012062D1B7BEBA200D773D6 /* GHBigNum.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		0A94794A1E5173B5CD735B88 /* Tests */ = {
+		001206361B7BEBA200D773D6 /* GHBigNumTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0DE227E0DAE130586AD3362 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildConfigurationList = 001206431B7BEBA200D773D6 /* Build configuration list for PBXNativeTarget "GHBigNumTests" */;
 			buildPhases = (
-				36899A287D659AC45D0EB129 /* Check Pods Manifest.lock */,
-				3FE1D7BC77D94D940E5D13F5 /* Sources */,
-				50647CCF53041E9C59710367 /* Frameworks */,
-				7FD0DD017FD8CE004CA340F8 /* Resources */,
-				86BC2E0856F960E27B7F92B5 /* Copy Pods Resources */,
+				001206331B7BEBA200D773D6 /* Sources */,
+				001206341B7BEBA200D773D6 /* Frameworks */,
+				001206351B7BEBA200D773D6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FE345BAB8CC1BD32CABDCF53 /* PBXTargetDependency */,
+				0012063A1B7BEBA200D773D6 /* PBXTargetDependency */,
 			);
-			name = Tests;
-			productName = Tests;
-			productReference = C63401BC278E01DD8CEF8CAB /* Tests.app */;
-			productType = "com.apple.product-type.application";
+			name = GHBigNumTests;
+			productName = GHBigNumTests;
+			productReference = 001206371B7BEBA200D773D6 /* GHBigNumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0012064E1B7BEEF200D773D6 /* GHBigNumOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001206661B7BEEF200D773D6 /* Build configuration list for PBXNativeTarget "GHBigNumOSX" */;
+			buildPhases = (
+				0012064A1B7BEEF200D773D6 /* Sources */,
+				0012064B1B7BEEF200D773D6 /* Frameworks */,
+				0012064C1B7BEEF200D773D6 /* Headers */,
+				0012064D1B7BEEF200D773D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHBigNumOSX;
+			productName = GHBigNumOSX;
+			productReference = 0012064F1B7BEEF200D773D6 /* GHBigNumOSX.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -203,8 +248,14 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Gabriel Handford";
 				TargetAttributes = {
-					00D010241A081BAA002BF5C5 = {
-						CreatedOnToolsVersion = 6.1;
+					0012062C1B7BEBA200D773D6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					001206361B7BEBA200D773D6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0012064E1B7BEEF200D773D6 = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -220,14 +271,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00D010241A081BAA002BF5C5 /* GHBigNum */,
-				0A94794A1E5173B5CD735B88 /* Tests */,
+				0012062C1B7BEBA200D773D6 /* GHBigNum */,
+				001206361B7BEBA200D773D6 /* GHBigNumTests */,
+				0012064E1B7BEEF200D773D6 /* GHBigNumOSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7FD0DD017FD8CE004CA340F8 /* Resources */ = {
+		0012062B1B7BEBA200D773D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001206351B7BEBA200D773D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0012064D1B7BEEF200D773D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -237,22 +303,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06F80D0B24F045EC4425C65B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		36899A287D659AC45D0EB129 /* Check Pods Manifest.lock */ = {
+		B52ACEF8DD4A0290102C5379 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,7 +318,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		86BC2E0856F960E27B7F92B5 /* Copy Pods Resources */ = {
+		DBDDDC7D57E8CA1CD352F055 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,57 +330,191 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D8BC0580AE27D05145FA3EB4 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHBigNum/Pods-GHBigNum-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00D010211A081BAA002BF5C5 /* Sources */ = {
+		001206281B7BEBA200D773D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D0102B1A081BAA002BF5C5 /* GHBigNum.m in Sources */,
+				001206491B7BEC9800D773D6 /* GHIBigNum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FE1D7BC77D94D940E5D13F5 /* Sources */ = {
+		001206331B7BEBA200D773D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CC433E1A3A729E006118A9 /* GHBigNumTest.m in Sources */,
-				F058D37CB32C15D6FC8E2ADB /* main.m in Sources */,
-				00CC433F1A3A72A8006118A9 /* GHBigNum.m in Sources */,
+				001206471B7BEBE900D773D6 /* GHBigNumTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0012064A1B7BEEF200D773D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FE345BAB8CC1BD32CABDCF53 /* PBXTargetDependency */ = {
+		0012063A1B7BEBA200D773D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GHBigNum;
-			target = 00D010241A081BAA002BF5C5 /* GHBigNum */;
-			targetProxy = AEC156426716EE9823292FB1 /* PBXContainerItemProxy */;
+			target = 0012062C1B7BEBA200D773D6 /* GHBigNum */;
+			targetProxy = 001206391B7BEBA200D773D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		001206411B7BEBA200D773D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846773F10435B9B1AE232A51 /* Pods-GHBigNum.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GHBigNum/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		001206421B7BEBA200D773D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C89C5ACA325DB08BF07382 /* Pods-GHBigNum.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = GHBigNum/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		001206441B7BEBA200D773D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GHBigNumTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		001206451B7BEBA200D773D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = GHBigNumTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		001206621B7BEEF200D773D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GHBigNum/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		001206631B7BEEF200D773D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = GHBigNum/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		00D010371A081BAA002BF5C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -404,102 +589,40 @@
 			};
 			name = Release;
 		};
-		00D0103A1A081BAA002BF5C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C61FB16E68DFDA5F36C7C7EE /* Pods.debug.xcconfig */;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		00D0103B1A081BAA002BF5C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 478BC9668F82C8EA99D1D932 /* Pods.release.xcconfig */;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7832F5F81F950F8554EE7523 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F54C6D72361A6CDE4C7EEF79 /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C0EC49967BB5D3D6E25D2F94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA9FC4A818EF0CBA9F201C16 /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		001206401B7BEBA200D773D6 /* Build configuration list for PBXNativeTarget "GHBigNum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001206411B7BEBA200D773D6 /* Debug */,
+				001206421B7BEBA200D773D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001206431B7BEBA200D773D6 /* Build configuration list for PBXNativeTarget "GHBigNumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001206441B7BEBA200D773D6 /* Debug */,
+				001206451B7BEBA200D773D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001206661B7BEEF200D773D6 /* Build configuration list for PBXNativeTarget "GHBigNumOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001206621B7BEEF200D773D6 /* Debug */,
+				001206631B7BEEF200D773D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		00D010201A081BAA002BF5C5 /* Build configuration list for PBXProject "GHBigNum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00D010371A081BAA002BF5C5 /* Debug */,
 				00D010381A081BAA002BF5C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		00D010391A081BAA002BF5C5 /* Build configuration list for PBXNativeTarget "GHBigNum" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				00D0103A1A081BAA002BF5C5 /* Debug */,
-				00D0103B1A081BAA002BF5C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0DE227E0DAE130586AD3362 /* Build configuration list for PBXNativeTarget "Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7832F5F81F950F8554EE7523 /* Release */,
-				C0EC49967BB5D3D6E25D2F94 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
