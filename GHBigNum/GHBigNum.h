@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Gabriel Handford. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for GHBigNum.
 FOUNDATION_EXPORT double GHBigNumVersionNumber;

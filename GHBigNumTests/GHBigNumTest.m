@@ -26,7 +26,7 @@
   GHBigNum *p = [GHBigNum bigNumWithDecimalString:@"22"];
   GHBigNum *m = [GHBigNum bigNumWithDecimalString:@"3487438743234789234880"];
   GHBigNum *r = [GHBigNum modPow:a p:p m:m];
-  GRAssertEqualObjects(r, [GHBigNum bigNumWithDecimalString:@"1"]);
+  XCTAssertEqualObjects(r, [GHBigNum bigNumWithDecimalString:@"1"]);
 }
 
 @end
